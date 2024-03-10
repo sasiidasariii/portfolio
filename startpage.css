@@ -1,12 +1,15 @@
 body,html{
+  
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: Inconsolata;
   transition: background-color 0.5s;
-  background-image: linear-gradient(to right, black, #333333); 
-  overflow-x: hidden;
+  background: linear-gradient(to right, black, #333333); 
   cursor: url('gps (1).png'), auto;
+  min-height: 100%;
+  overflow-x: hidden;
+ 
 }
 
 a,button,input {
@@ -19,9 +22,12 @@ a,button,input {
 
 
 .firstpart {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   position: relative;
+
+  overflow: hidden;
+
   
 }
 
@@ -46,6 +52,7 @@ a,button,input {
 
 .startpage {
   padding: 30vh; 
+  height: 100vh;
 
 }
 
@@ -173,6 +180,7 @@ a,button,input {
 }
 
 
+
 /*.text-4::before {
   content: attr(data-text);
   position: absolute;
@@ -203,11 +211,12 @@ a,button,input {
   width: 100%;
   height: 20vh;
   position: relative;
-  top: 75%;
+  
+
 }
 .button1{
   left: 30%;
-  top: 5vh;
+  top: -100%;
 }
 
 .mobile-menu {
@@ -263,7 +272,9 @@ a,button,input {
       right: auto;
     }
     
-    
+    .firstpart{
+      height: 100vh;
+    }
     
 }
 
@@ -283,8 +294,9 @@ a,button,input {
 
 
 .text-1,.text-2,.text-5,.text-4 {
-  
-  font-size: 5vw;
+  bottom: 4vh;
+  font-size: 6vw;
+  left: -10vw;
 }
 
 /*.text-4::before {
@@ -321,4 +333,36 @@ a,button,input {
   position: relative;
   top: -15vw;
   left: 55vw;
+}
+
+
+
+@media (max-width : 750px) {
+
+
+  #changing-image{
+    width: 15vw;
+   position: relative;
+   top: -15vw;
+   left: 45vw;
+ }
+
+}
+
+
+
+@media (max-width : 500px) {
+
+
+  #changing-image{
+   min-width: 55vw;
+   position: relative;
+   top: 20vh;
+   left: 5vw;
+   
+ }
+ .project{
+  
+  top: -25vh;
+ }
 }

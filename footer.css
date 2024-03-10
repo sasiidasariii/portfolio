@@ -1,3 +1,14 @@
+footer {
+  margin-top: 0;
+  position: relative;
+  top: 10vh;
+}
+
+.contactme{
+  color: bisque;
+  display: flex;
+  justify-content: center; 
+}
 .contact {
   position: relative;
   display: flex;
@@ -78,7 +89,7 @@
   height: 2em;
   position: relative;
   right: 0;
-  left: 1vw;
+  left: 4vw;
 }
 
 @media (max-width: 768px) {
