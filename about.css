@@ -275,7 +275,7 @@
     top : -2vh;
   }
   .content{
-    top: -15vh;
+    top: -25vh;
     width: 70%;
     left: 0;
     font-size: 4vw;
@@ -285,7 +285,7 @@
     ;
   }
   .ui-btn{
-    top: -15vh;
+    top: -30vh;
   }
   
 }
