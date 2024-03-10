@@ -1,7 +1,8 @@
 footer {
   margin-top: 0;
   position: relative;
-  top: 30vh;
+  top: 32vh;
+ 
 }
 
 .name {
@@ -52,6 +53,7 @@ footer {
   bottom: 0;
   top: 30vh;
   font-size: 1vw;
+  background: rgb(102, 135, 135);
 }
 .contactme{
   color: bisque;
@@ -68,6 +70,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  padding: 1em 0;
+  background-color: rgb(44, 57, 58);
  
 }
 
@@ -189,6 +194,7 @@ footer {
 
 @media(max-width:750px){
 
+
   .contactme{
     color: bisque;
     display: flex;
@@ -236,6 +242,9 @@ footer {
   top: 20vh;
   color: white;
   font-family: Inconsolata;
+}
+.contact{
+  background: rgb(133, 173, 175);
 }
 }
   

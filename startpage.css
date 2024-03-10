@@ -12,13 +12,11 @@ body,html{
  
 }
 
+
+
 a,button,input {
   cursor: url('click (2).png'), auto;
 } 
-
-* {
-  box-sizing: border-box;
-}
 
 
 .firstpart {
