@@ -1,11 +1,11 @@
-button {
+.button1 {
   text-decoration: none;
   position: relative;
   border: none;
-  font-size: 15px;
+  font-size: 16px;
   font-family: Inconsolata;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 0.2vw;
   cursor: pointer;
   color: #fff;
   width: 9em;
@@ -14,11 +14,11 @@ button {
   text-align: center;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 300%;
-  border-radius: 30px;
+  border-radius: 2em;
   z-index: 1;
 }
 
-button:hover {
+.button1:hover {
   animation: ani 8s linear infinite;
   border: none;
 }
@@ -33,7 +33,7 @@ button:hover {
   }
 }
 
-button:before {
+.button1:before {
   content: "";
   position: absolute;
   top: -5px;
@@ -47,10 +47,32 @@ button:before {
   transition: 1s;
 }
 
-button:hover::before {
+.button1:hover::before {
   filter: blur(20px);
 }
 
-button:active {
+.button1:active {
   background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+
+
+@media (max-width : 750px) {
+  
+  .button1 {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-family: Inconsolata;
+    left: 10vw;
+    top: 5vh;
+    font-size: 2vh;
+   width: 25vw;
+   height: 5vh;
+   line-height: 2em;
+   text-align: center;
+   font-weight: bold;
+  letter-spacing: 0.2vw;
+       }
+
 }

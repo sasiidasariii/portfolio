@@ -1,25 +1,18 @@
-.about {
-    background-color: #191919;
-    padding: 22em;
-  
-}
-.abouttitle {
-  
-    font-family:Inconsolata;
-    color: white;
-    font-weight: bold;
-    font-size: 40px;
-    position: absolute;
-    top: 22em;
-    left: 16em;
-    justify-content: center;
+.sect {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 
-@media only screen and (max-width: 600px) {
-    .about {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      padding: 100%;
-    }
-  }
+.abouttitle {
+  font-size: 2.5vw;
+  color: #86A789;
+  opacity: 1; 
+}
+
+.content {
+  margin-top: 20vh;
+  opacity: 1;
+}
+
+

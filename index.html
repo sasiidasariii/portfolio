@@ -6,32 +6,62 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier Prime">
     <link rel="stylesheet" href="startpage.css">
-    <link rel="stylesheet" href="work.css">
     <link rel="stylesheet" href="projects.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about.css"> 
     <link rel="icon" type="image/x-icon" href="srr-favicon-color.png" >
-    
+    <link rel="stylesheet" href="download.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="backtotop.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+   
 </head>
 <body>
-    <section class="firstpart">
-    <div id="id1">
+
+  
+    <div class="firstpart" id="firstpart">
+      <div class="content-wrapper">
+
+        <div class="main">
         
-            <span id ="idlogo"> 
-               <a href="#">
-                <img src="srr-high-resolution-logo-transparent.png" alt="SRR" style="width: 5%;">
-              </a>
-            </span>
+            <a href="index.html" class="mylogo">
+             <img src="srr-favicon-color.png" alt="SRR" >
+           </a>
+       
+         <div id="nav">
+             
+             <a href="#"id="nav-indicator">WORK</a>
+             <a href="#abouttitle"id="nav-indicator">ABOUT</a>
+             <a href="Sasi Resume 3.pdf" target="_blank"id="nav-indicator">RESUME</a>
+             <a href="#contact"id="nav-indicator">CONTACT</a>
 
-                <nav id = "idnavi">
-                <a href="#">WORK</a>
-                <a href="#">ABOUT</a>
-                <a href="#">RESUME</a>
-                </nav>
+         </div>
+        
+         <label class="hamburger" for="menu-toggle">
+          <input type="checkbox"  id="menu-toggle">
+          <svg viewBox="0 0 32 32">
+            <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+            <path class="line" d="M7 16 27 16"></path>
+          </svg>
+        </label>
+           
+        
+        <div class="mobile-menu">
+          <a href="index.html">Home</a>
+          <a href="#abouttitle">About</a>
+          <a href="#">Work</a>
+          <a href="Sasi Resume 3.pdf"target="_blank"class="no-smooth-scroll">Resume</a>
+          <a href="#contact">Contact</a>
+        </div>
 
-    </div>
-    <section class="startpage">
-        <div>
+
+        </div>
+         
+        <div class="startpage">
+          <div class="textbox">
             <div class="text-1">
                Hi
             </div>
@@ -41,23 +71,66 @@
             </div>
             
             <div class="text-3">
-                I'm a Developer
+               <span class="text-5">I'm a</span>
+               <span class="text-4"data-text="Developer..."></span>
+      
             </div>
-            <div class="project"><button>PROJECTS</button></div>
-        </div>
+            
+        
+              <img id="changing-image" src="images\boy.png" alt="Changing Image">
+        
+            
+            <div class="project"><button class="button1">PROJECTS</button></div>
+
+          </div>
+          
        
-    </section>
-   </section>
-    <section class="about">
-        <div class="abouttitle">
-          ABOUT ME
         </div>
-    </section>
 
-   <footer>
+      </div>
+    </div>
+    
+    <section class="sect">
+      <div class="abouttitle" id="abouttitle">
+        <h1>About Me</h1>
+      </div>
+      <div class="content">
+      <p> Iam Dasari Sasi Ranga Raidu and I'm a Computer Science Undergraduate from International Institute of Information Technology, Bhubaneshwar for acedemic year of 2022-2026. I'm passionate about learning and exploring new things.</p>
+      </div>
+</div>
+  </section>
+    
+<footer class="contact" id="contact">
 
-   </footer>
-   
+  <div class="mail"> <a href="mailto:sasirangaraidu555@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src="email (1).png" alt="Contact via Email">
+  </a></div>
+    <div class="card">
+      <a href="https://www.instagram.com/sasiidasariii/" target="_blank"><div class="instagram-icon"></div></a>
+      <a href="https://github.com/sasiidasariii" target="_blank"><div class="github-icon"></div></a>
+      <a href="https://www.linkedin.com/in/sasi-ranga-raidu-dasari-26285a253/" target="_blank"><div class="linkdin-icon"></div></a>
+      <a href="https://discord.com/users/sasi7522" target="_blank"> <div class="discord-icon"></div></a>
+     
+  </div>
+   <a href="#firstpart">
+    <button class="Btp">
+      <svg height="1.2em" class="arrow" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg>
+    <p class="text">Back to Top</p>
+    </button>
+    
+   </a>
+ 
+</footer>
+  
+   <script src="script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+   <script src="smoothscroll.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="scroll.js"></script>
+   <script src="type.js"></script>
+   <script src="img.js"></script>
+  
+
 </body>
 
 </html>

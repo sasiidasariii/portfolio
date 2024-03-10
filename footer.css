@@ -1,0 +1,124 @@
+.contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  display: flex;
+  height: 8vh;
+  width: 100%; 
+  max-width: 350px; 
+  position: relative;
+  margin: 0 auto; 
+  justify-content: space-between;
+ 
+
+}
+
+.instagram-icon {
+  width: 50px;
+  height: 50px;
+  background: url('images/instagram (3).png')  center/50px 50px; 
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; 
+}
+.instagram-icon:hover {
+
+  transform: scale(1.2); 
+  background: url('images/instagram (1).png')  center/cover; 
+}
+
+.github-icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top : 1vh;
+  background: url('images/github.png')  center/35px 35px; 
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; 
+}
+.github-icon:hover {
+  transform: scale(1.2); 
+  background: url('images/github\ \(1\).png') center/cover; 
+}
+
+
+.linkdin-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 1vh;
+  background: url('images/linkedin.png') center/30px 30px; 
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; 
+}
+.linkdin-icon:hover {
+  transform: scale(1.2); 
+  background: url('images/linkedin\ \(1\).png') center/cover; 
+}
+
+
+.discord-icon {
+  width: 50px;
+  height: 50px;
+  background: url('images/discord.png') center/50px 50px; 
+  display: inline-block;
+  transition: transform 0.3s ease-in-out; 
+}
+.discord-icon:hover {
+  transform: scale(1.2); 
+  background: url('images/discord\ \(1\).png') center/cover; 
+}
+
+
+.mail img {
+  height: 2em;
+  position: relative;
+  right: 0;
+  left: 1vw;
+}
+
+@media (max-width: 768px) {
+  .mail img {
+    right: 0;
+    left: 5vw;
+    height: 1.5em;
+  }
+
+  .card {
+    display: flex;
+    height: 3vh;
+    width: 100%; 
+    max-width: 50vw;
+    position: relative;
+    margin: 0 auto;
+  }
+   .instagram-icon{
+    width: 30px;
+    height: 30px;
+    background: url('images/instagram (3).png')  center/30px 30px; 
+   }
+    .github-icon{
+      width: 20px;
+      height: 20px;
+      top : 0.7vh;
+      background: url('images/github.png')  center/20px 20px; 
+    }
+    .linkdin-icon {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      top: 0.4vh;
+      background: url('images/linkedin.png') center/20px 20px; 
+}
+.discord-icon{
+  width: 30px;
+  height: 30px;
+  background: url('images/discord.png')  center/30px 30px; 
+ }
+
+}
+  
