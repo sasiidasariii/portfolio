@@ -8,3 +8,15 @@
     top: -15vh;
 
 }
+.pl {
+    font-family: Inconsolata;
+    opacity: 1;
+    position: relative;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #63cbbb;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
