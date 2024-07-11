@@ -9,7 +9,7 @@
 .abouttitle {
   font-family: Inconsolata;
   font-size: 4vw;
-  color: rgb(69, 132, 132);
+  color: #63cbbb;
   opacity: 1; 
   font-weight: bold;
   position: relative;
@@ -26,7 +26,7 @@
   left: 15vw;
   font-size: 1.5vw;
   font-weight: bold;
-  color: #63cbbb;
+  color: #a8b2d1;
   width: 40%;
 }
 
@@ -238,7 +238,7 @@
   .abouttitle {
     font-family: Inconsolata;
     font-size: 10vw;
-    color: rgb(69, 132, 132);
+    color: #63cbbb;
     opacity: 1; 
     font-weight: bold;
   }
@@ -281,7 +281,7 @@
     font-size: 4vw;
     text-align: center;
     font-weight: bold;
-    color: #63cbbb;
+    color: #a8b2d1;
     ;
   }
   .ui-btn{

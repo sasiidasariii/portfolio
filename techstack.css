@@ -11,7 +11,7 @@
 .techst {
     font-family: Inconsolata;
     font-size: 4vw;
-    color: #5F5D9C;
+    color: #63cbbb;
     opacity: 1; 
     font-weight: bold;
     position: relative;
@@ -27,7 +27,7 @@
     bottom: 50vh;
     font-size: 2vw;
     font-weight: bold;
-    color: #6895D2;
+    color: #a8b2d1;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -41,7 +41,7 @@
     bottom: 25vh;
     font-size: 2vw;
     font-weight: bold;
-    color: #6895D2;
+    color: #a8b2d1;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -54,7 +54,7 @@
     bottom: 5vh;
     font-size: 2vw;
     font-weight: bold;
-    color: #6895D2;
+    color: #a8b2d1;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -68,7 +68,7 @@
     bottom: -5vh;
     font-size: 2vw;
     font-weight: bold;
-    color: #6895D2;
+    color: #a8b2d1;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -82,7 +82,7 @@
     bottom: -15vh;
     font-size: 2vw;
     font-weight: bold;
-    color: #6895D2;
+    color: #a8b2d1;
     width: 100%;
     display: flex;
     justify-content: center; 

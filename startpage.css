@@ -5,7 +5,10 @@ body,html{
   padding: 0;
   font-family: Inconsolata;
   transition: background-color 0.5s;
+  background-color: black;
+/*
   background: linear-gradient(to right, black, #333333); 
+  */
   cursor: url('gps (1).png'), auto;
   min-height: 100%;
 
@@ -36,14 +39,18 @@ a,button,input {
 }
 
 .main {
-  height: 15vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent; /* Initial background color */
+  transition: background-color 0.5s;
+  z-index: 1000;
 }
-
 
 .textbox {
   position: relative;
@@ -51,7 +58,7 @@ a,button,input {
 }
 
 .startpage {
-  padding: 30vh; 
+  padding: 40vh; 
   height: 100vh;
 
 }
@@ -61,7 +68,7 @@ a,button,input {
 .mylogo {
 
   height: auto;
-  width: 6vw;
+  width: 5vw;
   height: 3vh;
   position: relative;
   bottom: 3vh;
@@ -179,6 +186,14 @@ a,button,input {
   
 }
 
+#changing-image{
+  width: 15vw;
+ position: relative;
+ top: -15vw;
+ left: 55vw;
+}
+
+
 
 
 /*.text-4::before {
@@ -250,7 +265,10 @@ a,button,input {
 }
 
 @media (max-width : 750px) {
-
+    .startpage {
+      padding: 30vh;
+     
+    }
   
 
     #nav {
@@ -281,7 +299,7 @@ a,button,input {
 
 
 @media (max-width : 500px) {
-
+  
 
 
 .textbox {
@@ -294,7 +312,7 @@ a,button,input {
 
 
 .text-1,.text-2,.text-5,.text-4 {
-  bottom: 4vh;
+  bottom: -5vh;
   font-size: 6vw;
   left: -10vw;
 }
@@ -328,12 +346,6 @@ a,button,input {
 
 
 
-#changing-image{
-   width: 15vw;
-  position: relative;
-  top: -15vw;
-  left: 55vw;
-}
 
 
 
@@ -357,12 +369,12 @@ a,button,input {
   #changing-image{
    min-width: 55vw;
    position: relative;
-   top: 20vh;
+   top: 30vh;
    left: 5vw;
    
  }
  .project{
   
-  top: -25vh;
+  top: -20vh;
  }
 }

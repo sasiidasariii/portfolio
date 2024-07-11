@@ -1,5 +1,5 @@
 
-  ScrollReveal().reveal('.text-1, .text-2, .text-3, .project', {
+ /* ScrollReveal().reveal('.text-1, .text-2, .text-3, .project', {
     origin: 'bottom',
     distance: '20px',
     duration: 1000,
@@ -7,5 +7,6 @@
     reset: true,
     scale: 0.9,
   });
+  */
 
  
