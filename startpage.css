@@ -300,7 +300,10 @@ a,button,input {
 
 @media (max-width : 500px) {
   
-
+.startpage{
+  position: relative;
+  
+}
 
 .textbox {
   position: relative;

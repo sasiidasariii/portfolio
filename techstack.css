@@ -19,7 +19,31 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
+    display: inline-block; 
 }
+
+.techst h1:after {
+    content: "";
+    display: block;
+    position:absolute;
+    bottom: 6vh;
+    width: 180%;
+    height: 2px;
+    margin-left: 22vw;
+    background-color: #29292c;
+}
+.techst h1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 6vh;
+    width: 180%;
+    height: 2px;
+    margin-left: -38vw;
+    background-color: #29292c;
+}
+
+
 .pl {
     font-family: Inconsolata;
     opacity: 1;
@@ -152,42 +176,49 @@
         display: grid;
         place-items: center;
         min-height: 100vh;
+        position: relative;
+        bottom: -50vh;
+        top: 20vh;
       
           }
+    .ts {
+        position: relative;
+        top : -35vh;
+    }
     .techst {
         position: relative;
-        bottom: 50vh;
+        bottom: 15vh;
         font-size: 10vw;
 
     }
 
     .pl {
 
-        bottom: 45vh;
+        bottom: 5vh;
         font-size: 6vw;
 
     }
     .dt {
 
-        bottom: 35vh;
+        bottom: -5vh;
         font-size: 6vw;
 
     }
     .fw {
 
-        bottom: 25vh;
+        bottom: -15vh;
         font-size: 6vw;
 
     }
     .db {
 
-        bottom: 15vh;
+        bottom: -25vh;
         font-size: 6vw;
 
     }
     .ml {
 
-        bottom: 5vh;
+        bottom: -35vh;
         font-size: 6vw;
 
     }
@@ -201,23 +232,42 @@
     .imagee {
        
         
-        bottom: 50vh;
+        bottom: 5vh;
     }
     .imagee2 {
        
         
-        bottom: 40vh;
+        bottom: -5vh;
     }
     .imagee3 {
         
-        bottom: 30vh;
+        bottom: -15vh;
     }
     .imagee4 {
         
-        bottom: 20vh;
+        bottom: -25vh;
     }
     .imagee5 {
         
-        bottom: 10vh;
+        bottom: -35vh;
+    }
+
+
+    .techst h1:after {
+        
+        bottom: 3vh;
+        width: 20vw;
+        height: 2px;
+        margin-left: 52vw;
+       
+    }
+    .techst h1:before {
+       
+        
+        bottom: 3vh;
+        width: 20vw;
+        height: 2px;
+        margin-left: -22vw;
+       
     }
 }

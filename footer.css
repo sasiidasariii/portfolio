@@ -247,4 +247,11 @@ footer {
   background: rgb(133, 173, 175);
 }
 }
+
+@media(max-width:750px){
+
+  footer {
+   
+  }
+}
   

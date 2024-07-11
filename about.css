@@ -4,6 +4,7 @@
   display: grid;
   place-items: center;
   min-height: 100vh;
+   
 
     }
 .abouttitle {
@@ -14,8 +15,28 @@
   font-weight: bold;
   position: relative;
   top: -2vh;
+  display: inline-block;
 }
-
+.abouttitle h1:after {
+  content: "";
+  display: block;
+  position:absolute;
+  bottom: 6vh;
+  width: 38vw;
+  height: 2px;
+  margin-left: 18vw;
+  background-color: #29292c;
+}
+.abouttitle h1:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 6vh;
+  width: 38vw;
+  height: 2px;
+  margin-left: -40vw;
+  background-color: #29292c;
+}
 .content {
   font-family: Inconsolata;
   margin-top: 20vh;
@@ -266,16 +287,22 @@
  
 
 @media (max-width : 450px){
+  .sect {
+       position: relative;
+       
+        top: 1vh;
+        height: 80vh;
+  }
 
  
   .mypic img {
     width: 80%;
     position: relative;
     left: 10vw;
-    top : -2vh;
+    top : 5vh;
   }
   .content{
-    top: -25vh;
+    top: -10vh;
     width: 70%;
     left: 0;
     font-size: 4vw;
@@ -285,7 +312,23 @@
     ;
   }
   .ui-btn{
-    top: -30vh;
+    top: -10vh;
+  }
+  .abouttitle h1:after {
+   
+    bottom: 3vh;
+    width: 22vw;
+    height: 2px;
+    margin-left: 43vw;
+    
+  }
+  .abouttitle h1:before {
+    
+    bottom: 3vh;
+    width: 22vw;
+    height: 2px;
+    margin-left: -25vw;
+    
   }
   
 }
