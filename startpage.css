@@ -381,3 +381,85 @@ a,button,input {
   top: -20vh;
  }
 }
+
+
+
+/* Styles for devices with width between 768px and 1024px (common iPad widths) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .mylogo  {
+    height: auto;
+    width: 10vw;
+    position: relative;
+    bottom: 0.5vh;
+    left: 10vw;
+    right: auto;
+  }
+
+  .project{
+  
+    top: 40vh;
+    left: -40vw;
+    
+   }
+
+
+   
+.text-1 {
+  font-family: Inconsolata;
+  color: white;
+  font-weight: bold;
+  font-size: 6vw;
+  position: relative;
+  left: -70vw;
+  top: -10vh;
+
+}
+
+.text-2 {
+  font-family: Inconsolata;
+  color: white;
+  font-weight: bold;
+  font-size: 6vw;
+  position: relative;
+  top: -10vh;
+  left: -70vw;
+  white-space: nowrap;
+}
+.text-3 {
+  text-wrap: nowrap;
+}
+
+.text-5 {
+  font-family: Inconsolata;
+  color: rgb(133, 117, 214);
+  font-weight: bold;
+  font-size: 6vw;
+  padding: 2vw;
+  position: relative;
+  left: -50vw;
+  top: -5vh;
+    
+}
+
+.text-4 {
+  
+  color: transparent;
+  -webkit-text-stroke: 0.05vw rgb(133, 117, 214);
+  font-weight: bold;
+  font-size: 8vw;
+  position: relative;
+  top: 50%;
+  left: -65vw;
+  text-transform: uppercase;
+  
+}
+
+#changing-image{
+  width: 15vw;
+ position: relative;
+ top: -15vw;
+ left: 55vw;
+}
+
+  
+}

@@ -13,3 +13,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }, 2000); // 2 seconds delay before zooming in
 });
+
+
